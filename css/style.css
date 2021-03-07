@@ -1,0 +1,49 @@
+.active-cyan-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+body {
+	display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+@keyframes rotate360 {
+	100% { transform: rotate(360deg); }
+}
+.rotate360 {
+	animation-name: rotate360;
+	animation-duration: 2s; /* Thời gian xoay */
+}
+
+@-webkit-keyframes rotate360 {
+	100% { -webkit-transform: rotate(360deg); }
+}
+ 
+@-moz-keyframes rotate360 {
+	100% { -moz-transform: rotate(360deg); }
+}
+ 
+@-ms-keyframes rotate360 {
+	100% { -ms-transform: rotate(360deg); }
+}
+ 
+@-o-keyframes rotate360 {
+	100% { -o-transform: rotate(360deg); }
+}
+ 
+@keyframes rotate360 {
+	100% { transform: rotate(360deg); }
+}
+
+.rotate360 {
+	-webkit-animation: rotate360 1s;
+	-moz-animation: rotate360 1s;
+	-ms-animation: rotate360 1s;
+	-o-animation: rotate360 1s;
+	animation: rotate360 1s;
+}

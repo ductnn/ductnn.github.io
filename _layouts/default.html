@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include header.html %}
+  <body>
+      {% include navbar.html %}
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="IFE510nC"></script>
+      <div class="container pt-3 mt-3">
+        {{ content }}
+      </div>
+  </body>
+</html>
+{% include footer.html %}
+<script src="/js/footerShift.js" type="text/javascript"></script>

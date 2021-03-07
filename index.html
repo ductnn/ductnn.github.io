@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <h1 class="page-heading">Posts</h1>
+      {% for post in site.posts %}
+        <div class="post-preview">
+          <div class="card mt-4 my-sm-5"> 
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration: none">
+                  <img class="rounded-lg" src="{{ post.image }}" width="100px" height="100px" alt=""/>
+                </a>
+                <div class="ml-4">
+                  <a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration: none">
+                    <h4 class="text-uppercase font-weight-bold">{{ post.title }}</h4>
+                  </a>
+                  <div class="excerpt" itemprop="description">
+                    {% if post.excerpt %}
+                      {{ post.excerpt }}
+                    {% endif%}
+                    <span>&nbsp;</span>
+                    <a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration: none">
+                      View more
+                    </a>
+                  </div>
+                  <p class="post-meta">
+                    Post by
+                    <a href="https://github.com/ductnn" style="text-decoration: none; color: #007bff;">Ductn</a>
+                    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+      <p class="rss-subscribe mt-5">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+  </div>
+</div>
