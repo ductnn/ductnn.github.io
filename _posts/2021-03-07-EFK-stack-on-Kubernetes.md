@@ -35,7 +35,7 @@ dõi log của cụm kubernetes. *OK!!! Vào thôi*.
   Cơ chế  hoạt động của bộ công cụ được mô tả qua hình dưới đây:
 
   <p align="center">
-    <img src="../img/posts/efk/architecture.png"/>
+    <img src="../img/posts/efk/architecture.png" style="height: 50%; width: 50%"/>
   </p>
 
   1. Đầu tiên, log sẽ được đưa đến Fluent-bit.

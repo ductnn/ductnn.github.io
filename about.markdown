@@ -16,6 +16,10 @@ permalink: /about/
 - 🥅 2020 Goals: Contribute more to Open Source projects
 - ⚡ Fun fact: I love to draw and play guitar / drums
 
+<p align="center">
+    <img src="../img/bg.jpg" style="height: 100%; width: 100%"/>
+</p>
+
 ### Connect with me:
 
 [<img align="left" alt="ductnn.github.io" width="22px" src="https://avatars.githubusercontent.com/u/22121217?s=400&u=b331f35d43e369366b36162c77b89437a83b7ca3&v=4" />][website]
