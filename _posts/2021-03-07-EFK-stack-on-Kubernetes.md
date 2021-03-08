@@ -239,8 +239,10 @@ kibana          NodePort   10.103.245.24    <none>        5601:31122/TCP   47m
 
   ![Kibana](../img/posts/efk/kibana.png){:height="100%" width="100%"}
 
-  Vậy là mình là vừa demo xong EFK stack để  theo dõi logs của cụm kubernetes. Hy
-  vọng, bài viết này của mình sẽ giúp anh hiểu được phần nào của cách hoạt động
+  
+  Vậy là mình là vừa demo xong EFK stack để  theo dõi logs của cụm kubernetes.
+  
+  Hy vọng, bài viết này của mình sẽ giúp anh hiểu được phần nào của cách hoạt động
   và lợi ích của EFK 🎉🎉🎉. Cảm ơn anh em đã đọc 😄😄😄.
 
-<div class="fb-comments" data-href="https://ductnn.github.io/EFK-stack-on-Kubernetes.html" data-width="" data-numposts="5" style="display: flex; justify-content: center;"></div>
+<div class="fb-comments" data-href="https://ductn.info/EFK-stack-on-Kubernetes.html" data-width="" data-numposts="5" style="display: flex; justify-content: center;"></div>
