@@ -78,7 +78,7 @@ ductn@ductn:~/demo-EFK$ minikube start
 🌟  Enabled addons: storage-provisioner, default-storageclass
 🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
 ```
-  
+
   **Bước 2**: Tạo namespace chung cho cụm kubernetes
 
 ```sh

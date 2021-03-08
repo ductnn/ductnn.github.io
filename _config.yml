@@ -29,8 +29,10 @@ twitter_username: ductn4
 github_username:  ductnn
 linkedin_username: ductnn
 
-# kramdown:
-#   html_to_native: true
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
 
 # Build settings
 # theme: minima
