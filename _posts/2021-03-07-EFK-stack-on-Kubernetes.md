@@ -2,11 +2,16 @@
 layout: post
 title: EFK stack on Kubernetes
 image: ../img/posts/efk/fluent-bit.png
+tags:
+  - Kubernetes
+  - EFK Stack
 ---
 
-# **EFK stack on Kubernetes**
+# **[EFK stack on Kubernetes](https://ductn.info/EFK-stack-on-Kubernetes.html)**
 
-## Giới thiệu
+<hr />
+
+## **Giới thiệu**
 
   Một hệ thống có thể  chạy nhiều dịch vụ hoặc ứng dụng khác nhau, vì vậy việc
 theo dõi hệ thống là vô cùng cần thiết. **Logging** là một công cụ đơn giản nhưng
@@ -47,7 +52,7 @@ dõi log của cụm kubernetes. *OK!!! Vào thôi*.
 
   Bây giờ, mình sẽ "đề  mô" EFK stack cho Kubernetes
 
-## Demo
+## **Demo**
 
   Ở bài viết này, mình sử  dụng **minikube** để  deploy cụm kubernetes, vì vậy
   anh em nào chưa cài minikube thì cài nha 😁😁😁. Để  cài thì anh em cứ vô trang
@@ -245,4 +250,15 @@ kibana          NodePort   10.103.245.24    <none>        5601:31122/TCP   47m
   Hy vọng, bài viết này của mình sẽ giúp anh hiểu được phần nào của cách hoạt động
   và lợi ích của EFK 🎉🎉🎉. Cảm ơn anh em đã đọc 😄😄😄.
 
-<div class="fb-comments" data-href="https://ductn.info/EFK-stack-on-Kubernetes.html" data-width="" data-numposts="5" style="display: flex; justify-content: center;"></div>
+<hr />
+
+## **References**
+
+- [Setting up Fluent-bit](https://github.com/fluent/fluent-bit-kubernetes-logging)
+
+<hr />
+
+<div class="comments" style="display: flex; justify-content: center;">
+  <div class="fb-like" data-href="https://ductn.info/EFK-stack-on-Kubernetes.html" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
+  <div class="fb-comments" data-href="https://ductn.info/EFK-stack-on-Kubernetes.html" data-width="" data-numposts="5"></div>
+</div>
