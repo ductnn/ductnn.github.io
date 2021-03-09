@@ -2,6 +2,8 @@
 layout: post
 title: EFK stack on Kubernetes
 image: ../img/posts/efk/fluent-bit.png
+description: "<strong>Logging</strong> là một công cụ đơn giản nhưng
+lại rất tiện lợi giúp ghi lại toàn bộ hoạt động của hệ thống ..."
 tags:
   - Kubernetes
   - EFK Stack
