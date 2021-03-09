@@ -260,7 +260,7 @@ kibana          NodePort   10.103.245.24    <none>        5601:31122/TCP   47m
 
 <hr />
 
-<div class="comments" style="display: flex; justify-content: center;">
-  <div class="fb-like" data-href="https://ductn.info/EFK-stack-on-Kubernetes.html" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true"></div>
-  <div class="fb-comments" data-href="https://ductn.info/EFK-stack-on-Kubernetes.html" data-width="" data-numposts="5"></div>
+<div class="comments my-sm-5">
+  <div class="fb-like" data-href="https://ductn.info/EFK-stack-on-Kubernetes.html" data-width="" data-layout="standard" data-action="like" data-size="large" data-share="true" style="display: flex; justify-content: center; height: 100%; width: 100%"></div>
+  <div class="fb-comments" data-href="https://ductn.info/EFK-stack-on-Kubernetes.html" data-width="" data-numposts="5" style="display: flex; justify-content: center; height: 100%; width: 100%"></div>
 </div>
