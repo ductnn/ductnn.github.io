@@ -19,12 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 site_name: Ductn
+SEOTitle: Ductn Blog
 email: trannhuduc531998@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Demo Blog.
+description: "I'm a Researcher and Cloud Engineer !!!"
+keyword: "ductn, @ductn, Ductn Blog, Web, Cloud, DevOps"
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /:title.html
-url: "https://ductnn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ductn.info" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ductn4
 github_username:  ductnn
 linkedin_username: ductnn
@@ -33,6 +34,10 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
+
+# Google Analytics
+ga_track_id: 'G-J818F5ZRRE'            # Format: UA-xxxxxx-xx
+ga_domain: ductn.info
 
 # Build settings
 # theme: minima
