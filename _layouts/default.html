@@ -2,13 +2,20 @@
 <html lang="en">
   {% include header.html %}
   <body>
-      {% include navbar.html %}
-      <div id="fb-root"></div>
-      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="IFE510nC"></script>
-      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="dLnwYrCR"></script>
-      <div class="container pt-3 mt-3">
-        {{ content }}
-      </div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBFQ4ZB"
+      height="0" width="0" style="display:none;visibility:hidden">
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    {% include navbar.html %}
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="IFE510nC"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="dLnwYrCR"></script>
+    <div class="container pt-3 mt-3">
+      {{ content }}
+    </div>
   </body>
 </html>
 {% include footer.html %}
