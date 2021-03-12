@@ -1,10 +1,16 @@
 <header class="header" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
   <div class="container">
     <div class="header__inner">
-      <a class="header__logo" href="{{ '/' | relative_url }}">
+      <!-- <a class="header__logo" href="{{ '/' | relative_url }}">
         <div class="header__logo--container">
           {% include logo.svg %}
         </div>
+      </a> -->
+      <a class="header__logo" href="{{ '/' | relative_url }}">
+        <div class="header__logo--container">
+          <img class="rotate360" src="{{'/assets/img/icons/favicon.ico'| relative_url}}"/>
+        </div>
+        <strong style="font-size: 25px">Ductn Blog</strong>
       </a>
       <nav class="header__links">
         <div class="container header__links-wrapper">
