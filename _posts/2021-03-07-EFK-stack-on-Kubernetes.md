@@ -5,7 +5,7 @@ featured-img: efk-stack
 categories: [Kubernetes, EFK Stack]
 ---
 
-# **[EFK stack on K8S](https://ductn.info/EFK-stack-on-Kubernetes.html)**
+# **[EFK stack on K8S](https://ductn.info/EFK-stack-on-Kubernetes)**
 
 ## **Giới thiệu**
 
