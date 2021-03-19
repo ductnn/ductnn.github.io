@@ -23,7 +23,7 @@ dõi log của cụm kubernetes. *OK!!! Vào thôi*.
 
   EFK stack là tập hợp của 3 phần mềm đi chung với nhau bao gồm:
   
-  * **Elasticsearch**: Cơ sở dữ liệu *NoSQL* dùng để  lư trữ dữ liệu và cung cấp
+  * **Elasticsearch**: Cơ sở dữ liệu *NoSQL* dùng để  lưu trữ dữ liệu và cung cấp
   interface để  tìm kiếm và query log.
   * **Fluent-bit**: Là phần mềm mã nguồn mở, viết bằng **C**, được thiết kế  nhằm
   chú trọng đến hiệu suất. Nó cho phép bạn thu thập logs từ nhiều nguồn khác nhau.
@@ -67,7 +67,6 @@ ductn@ductn:~/demo-EFK$ minikube start
 😄  minikube v1.17.1 on Ubuntu 18.04
 🎉  minikube 1.18.1 is available! Download it: https://github.com/kubernetes/minikube/releases/tag/v1.18.1
 💡  To disable this notice, run: 'minikube config set WantUpdateNotification false'
-
 ✨  Automatically selected the docker driver
 👍  Starting control plane node minikube in cluster minikube
 🔥  Creating docker container (CPUs=2, Memory=2200MB) ...
