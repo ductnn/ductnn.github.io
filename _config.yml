@@ -23,7 +23,7 @@ navigation: # Navigation links
   - {name: 'About', link: '/about'}
   - {name: 'Contact', link: '/contact'}
   - {name: 'Resume/CV', link: './pdf/ductn_CV.pdf'}
-  - {name: 'Crush', link: './crush/index.html'}
+  - {name: 'Demo', link: '/demo/'}
 
 tagline: >
   📷 Welcome to my Blog !!! 📷
