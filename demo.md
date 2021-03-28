@@ -2,7 +2,7 @@
 layout: page
 title: Demo
 permalink: /demo/
-categories: [Javascript, NodeJS]
+bg-img: demo
 ---
 
 # Demo vài thứ linh tinh 💻 📷 🎹 🎧
