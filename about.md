@@ -50,7 +50,7 @@ chút sở thích linh tinh về  âm nhạc 🎹 🎧, hoặc là *phịc...* p
     <img src="/assets/img/pages/dongmo.jpg"/>
 </p>
 
-## Kêt bạn với mình:
+## Kết bạn với mình:
 
 Cuối cùng, anh em có thể  kết bạn với mình qua [facebook][facebook] cá nhân hoặc [instagram][instagram]
 Có gì hay ho mọi người có thể  chia sẻ, giao lưu 😁😁😁
@@ -64,10 +64,10 @@ Có gì hay ho mọi người có thể  chia sẻ, giao lưu 😁😁😁
 <br/>
 
 ## Cảm ơn anh em đã đọc. Chúc anh em một ngày tốt lành !!!
-*Ăn donut hông??? 🥯🥯🥯*
+*Ăn donut hông ??? 🥯🥯🥯*
 
 [website]: https://ductnn.github.io
 [twitter]: https://twitter.com/ductn4
-[instagram]: https://instagram.com/ductn4
+[instagram]: https://instagram.com/ductn_
 [linkedin]: https://linkedin.com/in/ductnn
 [facebook]: https://www.facebook.com/ductn.network/
