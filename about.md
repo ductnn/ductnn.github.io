@@ -28,6 +28,10 @@ chém gió linh tinh về  cuộc sống, ...
     <img src="/assets/img/pages/me.jpg"/>
 </p>
 
+<p align="center">
+    <img src="/assets/img/pages/contact_1.jpg"/>
+</p>
+
 Ngoài ra, mình cũng dùng để  làm demo vài cái **"vớ vẩn"** hiệu ứng của **javascript**,
 một phần để  nâng cao kỹ năng, nhưng chủ yếu là cho zui :v. Anh em mà quan tâm
 thì ghé qua [đây](https://ductn.info/demo/) để  xem.
