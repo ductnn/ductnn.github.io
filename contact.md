@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
-bg-img: contact
+bg-img: contact_1
 ---
 
 ## Contact me
