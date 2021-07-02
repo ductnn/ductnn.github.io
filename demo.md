@@ -12,8 +12,12 @@ bg-img: demo
 
 **2. [Green Rain](/something/green-rain/index.html)**
 - Tạo một ma trận nhìn ngầu ngầu từ chuỗi bit nhị phân `[0, 1]`
-- Các bạn có thể  tham khảo [source code](https://github.com/ductnn/Green-Rain)
+- Các bạn có thể tham khảo [source code](https://github.com/ductnn/Green-Rain)
 ở đây.
+
+**3. [Portfolio](https://ductn.info/react-portfolio)**
+- Tạo 1 portfolio cá nhân bằng ReactJS
+- Các bạn có thể tham khảo [source code](https://github.com/ductnn/react-portfolio)
 
 
 ### Connect with me:

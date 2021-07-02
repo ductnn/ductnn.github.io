@@ -24,7 +24,6 @@ navigation: # Navigation links
   - {name: 'Contact', link: '/contact'}
   - {name: 'Resume/CV', link: './pdf/ductn_CV.pdf'}
   - {name: 'Demo', link: '/demo/'}
-  - {name: 'Portfolio', link: 'https://ductn.info/React-portfolio'}
 
 tagline: >
   📷 Welcome to my Blog !!! 📷
