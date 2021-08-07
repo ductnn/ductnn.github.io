@@ -5,9 +5,9 @@ featured-img: kugo
 categories: [Kubernetes, Golang]
 ---
 
-## **[Tương tác với cụm Kubernetes bằng Golang](https://ductn.info/Controller-Kubernetes-with-Golang)**
+# **[Tương tác với cụm Kubernetes bằng Golang](https://ductn.info/Controller-Kubernetes-with-Golang)**
 
-### **Giới thiệu**
+## **Giới thiệu**
 
   Kubernetes cung cấp cho chúng ta một thư viện khá xịn xò tên là
 [client-go](https://github.com/kubernetes/client-go) :3. Trong bài viết này,
@@ -23,7 +23,7 @@ còn anh em nào có sẵn cụm k8s thì cài golang và múc thôi :3. *OK!!! 
     <img src="../assets/img/posts/kugo.jpg">
   </p>
 
-### **Demo**
+## **Demo**
 
   Sau khi cài đặt xong Golang và minikube xong, tiến hành start cụm minikube
 
