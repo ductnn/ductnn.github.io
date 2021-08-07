@@ -5,7 +5,7 @@ featured-img: kugo
 categories: [Kubernetes, Golang]
 ---
 
-# **[Tương tác với cụm Kubernetes bằng Golang](https://ductn.info/Controller-Kubernetes-with-Golang)**
+# **[Tương tác với cụm Kubernetes bằng Golang](https://ductn.info/controller-kubernetes-with-golang/)**
 
 ## **Giới thiệu**
 
