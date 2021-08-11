@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Install Jenkins with Docker"
-featured-img: jenkins-docker
+featured-img: jendo
 categories: [Jenkins, Docker]
 ---
 
 # **Install Jenkins with Docker 🐳 🐳 🐳**
 
   <p align="center">
-    <img src="../assets/img/posts/jenkins-docker.png">
+    <img src="../assets/img/posts/jendo.png">
   </p>
 
 ## **Downloading and running Jenkins on Docker**
