@@ -8,7 +8,7 @@ categories: [Jenkins, Docker]
 # **Install Jenkins with Docker 🐳 🐳 🐳**
 
   <p align="center">
-    <img src="../assets/img/posts/jendo.png">
+    <img src="../assets/img/posts/jendo.jpg">
   </p>
 
 ## **Downloading and running Jenkins on Docker**
