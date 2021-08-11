@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Install Jenkins with Docker"
-featured-img: Jendo
+featured-img: jenkins-docker
 categories: [Jenkins, Docker]
 ---
 
