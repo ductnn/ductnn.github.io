@@ -1,7 +1,7 @@
 {% if page.comments != false %}
 <div id="disqus_thread"></div>
 
-<script>
+{% comment %} <script>
 
     var disqus_config = function () {
         this.page.url = '{{ page.url | absolute_url }}';
@@ -17,6 +17,14 @@
         (d.head || d.body).appendChild(s);
 
     })();
+</script> {% endcomment %}
+
+<script src="https://utteranc.es/client.js"
+        repo="https://github.com/ductnn/ductnn.github.io.git"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
 </script>
 
 <noscript>Please enable JavaScript to view the comments.</noscript>
