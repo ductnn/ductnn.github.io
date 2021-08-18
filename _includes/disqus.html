@@ -8,18 +8,10 @@ this.page.identifier = '{{ page.url | absolute_url }}';
 };
 
 (function() {
-{% comment %} var d = document, s = d.createElement('script');
+var d = document, s = d.createElement('script');
 s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s); {% endcomment %}
-
-<script src="https://utteranc.es/client.js"
-        repo="https://github.com/ductnn/ductnn.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+(d.head || d.body).appendChild(s);
 })();
 </script>
 <noscript>Please enable JavaScript to view the comments.</noscript>
