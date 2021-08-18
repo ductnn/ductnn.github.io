@@ -97,13 +97,13 @@ layout: compress
     {% if site.disqus.shortname %}
 
     <div class="comments">
-      <div class="container">
-        <div class="post-content">
+      {% comment %} <div class="container">
+        <div class="post-content"> {% endcomment %}
 
           {% include disqus.html %}
 
-        </div>
-      </div>
+        {% comment %} </div>
+      </div> {% endcomment %}
     </div>
 
     {% endif %}
