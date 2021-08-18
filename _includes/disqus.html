@@ -1,35 +1,23 @@
 {% if page.comments != false %}
 <div id="disqus_thread"></div>
+
 <script>
 
-var disqus_config = function () {
-this.page.url = '{{ page.url | absolute_url }}';
-this.page.identifier = '{{ page.url | absolute_url }}';
-};
+    var disqus_config = function () {
+        this.page.url = '{{ page.url | absolute_url }}';
+        this.page.identifier = '{{ page.url | absolute_url }}';
+    };
 
-(function() {
-var d = document, s = d.createElement('script');
+    (function() {
+        var d = document, s = d.createElement('script');
 
-{% comment %} s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date()); {% endcomment %}
+        s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
 
-s.src = 'https://utteranc.es/client.js'
-s.repo = 'https://github.com/ductnn/ductnn.github.io'
-s.issue-term ="pathname"
-s.theme = "github-light"
-s.crossorigin = "anonymous"
+        (d.head || d.body).appendChild(s);
 
-(d.head || d.body).appendChild(s);
-
-{% comment %} 
-<script src="https://utteranc.es/client.js"
-        repo="https://github.com/ductnn/ductnn.github.io.git"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script> {% endcomment %}
-})();
+    })();
 </script>
+
 <noscript>Please enable JavaScript to view the comments.</noscript>
 {% endif %}
