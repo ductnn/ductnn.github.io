@@ -2,9 +2,9 @@
 title: Ductn Blog # your site title
 author: Ductn # You :P
 description: > # Meta description of Homepage
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Blog về những kiến thức, kinh nghiệm và hiểu biết của mình về công nghệ. Các
+  bài viết mình chia sẻ chủ yếu về Cloud Computing, Devops. Ngoài ra, còn có
+  một chút linh tinh về cuộc sống rì viu nhảm nhí những trải nghiệm của mình.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ductn.info" # the base hostname & protocol for your site, e.g. http://example.com
 
