@@ -21,7 +21,7 @@ social:
 navigation: # Navigation links
   - {name: 'Home', link: '/'}
   - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
+  # - {name: 'Contact', link: '/contact'}
   - {name: 'Resume/CV', link: './pdf/ductn_CV.pdf'}
   - {name: 'Demo', link: '/demo/'}
 
