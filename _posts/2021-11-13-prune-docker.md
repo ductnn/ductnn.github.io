@@ -26,7 +26,7 @@ mình có viết ra 1 cái tool để xoá cái đống này đi. Ok, sau đây 
 demo thử cho anh em cùng xem.
 
   <p align="center">
-    <img src="../assets/img/posts/pydo.png">
+    <img src="../assets/img/posts/pydo.jpg">
   </p>
 
 ## **Demo**
