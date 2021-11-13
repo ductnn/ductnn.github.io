@@ -86,11 +86,16 @@ b'REPOSITORY                                                                    
 
   Hình như hơi dài... Tiếp theo, mình sẽ truyền thêm arg `encoding='ascii'` vào:
 
+<details>
+<summary>Output</summary>
+
 ```bash
 >>> s = subprocess.check_output(['docker', 'images'], encoding='ascii')
 >>> s
 'REPOSITORY                                                                        TAG                           IMAGE ID       CREATED        SIZE\nductn4/pharma-server-dev                                                          latest                        b3bcb3f3d042   2 days ago     288MB\nductn4/pharma-server-test                                                         latest                        b279bfa64352   2 days ago     288MB\nductn4/pharma-server                                                              latest                        73a0a0737bec   2 days ago     288MB\ndev/django-prometheus-demo                                                        latest                        c9cdb14b3543   3 days ago     75.4MB\nductn4/node                                                                       15-alpine                     263ef415ed2e   5 days ago     118MB\n071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083                             web-ecom-latest               b751e9a2e8a0   5 days ago     552MB\nweb-ecom-dev                                                                      latest                        b5a529e54884   7 days ago     850MB\nprom/prometheus                                                                   latest                        c10e9cbf22cd   7 days ago     194MB\nweb-ecom-test                                                                     latest                        04d007b17e2b   8 days ago     2.18GB\nductn4/pm2                                                                        16-alpine                     e6d2f5ea8099   10 days ago    158MB\nnpb-test2                                                                         latest                        41d0ee7411fa   11 days ago    173MB\nductn4/pm2                                                                        15-alpine                     efd577a4ff6b   12 days ago    156MB\nductn4/pm2                                                                        latest                        efd577a4ff6b   12 days ago    156MB\n071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083/web-dashboard-latest        latest                        1716ae765ee6   12 days ago    188MB\nnpb-test                                                                          latest                        9452f53960ae   12 days ago    170MB\n071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083/vinivialive-social-latest   latest                        1b7a0cf5fdd9   2 weeks ago    446MB\n071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083                             vinivialive-social-latest     746313c3b4c6   2 weeks ago    446MB\n071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083                             vinivialive-shopping-latest   723c040bdc31   2 weeks ago    446MB\nductn4/mewcloud                                                                   latest                        ee9db83b0320   2 weeks ago    164MB\nvinso-test                                                                        latest                        51c81d264b8d   3 weeks ago    446MB\nmongo                                                                             5.0.3                         fefd78e9381a   4 weeks ago    699MB\nkeymetrics/pm2                                                                    15-alpine                     27a106a2a474   5 months ago   148MB\ngcr.io/k8s-minikube/kicbase                                                       v0.0.22                       bcd131522525   6 months ago   1.09GB\nnode                                                                              15-alpine                     75631da67663   7 months ago   112MB\npostgres                                                                          11.5-alpine                   da01ecfbabe1   2 years ago    71.8MB\n'
 ``` 
+
+</details>
 
   Anh em thấy kết quả của command trên sẽ trả ra các trường thông tin tương ứng
 của **images** như sau `['REPOSITORY', 'TAG', 'IMAGE ID', 'CREATED', 'SIZE']`.
@@ -108,9 +113,14 @@ output = [
 
   Và trông nó sẽ như này:
 
+<details>
+<summary>Output</summary>
+
 ```bash
 [['REPOSITORY', 'TAG', 'IMAGE ID', 'CREATED', 'SIZE'], ['ductn4/pharma-server-dev', 'latest', 'b3bcb3f3d042', '2 days ago', '288MB'], ['ductn4/pharma-server-test', 'latest', 'b279bfa64352', '2 days ago', '288MB'], ['ductn4/pharma-server', 'latest', '73a0a0737bec', '2 days ago', '288MB'], ['dev/django-prometheus-demo', 'latest', 'c9cdb14b3543', '3 days ago', '75.4MB'], ['ductn4/node', '15-alpine', '263ef415ed2e', '5 days ago', '118MB'], ['071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083', 'web-ecom-latest', 'b751e9a2e8a0', '5 days ago', '552MB'], ['web-ecom-dev', 'latest', 'b5a529e54884', '7 days ago', '850MB'], ['prom/prometheus', 'latest', 'c10e9cbf22cd', '7 days ago', '194MB'], ['web-ecom-test', 'latest', '04d007b17e2b', '8 days ago', '2.18GB'], ['ductn4/pm2', '16-alpine', 'e6d2f5ea8099', '10 days ago', '158MB'], ['npb-test2', 'latest', '41d0ee7411fa', '11 days ago', '173MB'], ['ductn4/pm2', '15-alpine', 'efd577a4ff6b', '12 days ago', '156MB'], ['ductn4/pm2', 'latest', 'efd577a4ff6b', '12 days ago', '156MB'], ['071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083/web-dashboard-latest', 'latest', '1716ae765ee6', '12 days ago', '188MB'], ['npb-test', 'latest', '9452f53960ae', '12 days ago', '170MB'], ['071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083/vinivialive-social-latest', 'latest', '1b7a0cf5fdd9', '2 weeks ago', '446MB'], ['071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083', 'vinivialive-social-latest', '746313c3b4c6', '2 weeks ago', '446MB'], ['071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083', 'vinivialive-shopping-latest', '723c040bdc31', '2 weeks ago', '446MB'], ['ductn4/mewcloud', 'latest', 'ee9db83b0320', '2 weeks ago', '164MB'], ['vinso-test', 'latest', '51c81d264b8d', '3 weeks ago', '446MB'], ['mongo', '5.0.3', 'fefd78e9381a', '4 weeks ago', '699MB'], ['keymetrics/pm2', '15-alpine', '27a106a2a474', '5 months ago', '148MB'], ['gcr.io/k8s-minikube/kicbase', 'v0.0.22', 'bcd131522525', '6 months ago', '1.09GB'], ['node', '15-alpine', '75631da67663', '7 months ago', '112MB'], ['postgres', '11.5-alpine', 'da01ecfbabe1', '2 years ago', '71.8MB']]
 ```
+
+</details>
 
   Ok, tiếp tục tách riêng trường tên và thông tin tương ứng của các trường:
 
@@ -122,6 +132,9 @@ output = [
 headers, rows = output[0], output[1:]
 ```
 
+<details>
+<summary>Output</summary>
+
 ```bash
 # This is headers
 ['REPOSITORY', 'TAG', 'IMAGE ID', 'CREATED', 'SIZE']
@@ -129,6 +142,8 @@ headers, rows = output[0], output[1:]
 # This is rows
 [['ductn4/pharma-server-dev', 'latest', 'b3bcb3f3d042', '2 days ago', '288MB'], ['ductn4/pharma-server-test', 'latest', 'b279bfa64352', '2 days ago', '288MB'], ['ductn4/pharma-server', 'latest', '73a0a0737bec', '2 days ago', '288MB'], ['dev/django-prometheus-demo', 'latest', 'c9cdb14b3543', '3 days ago', '75.4MB'], ['ductn4/node', '15-alpine', '263ef415ed2e', '5 days ago', '118MB'], ['071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083', 'web-ecom-latest', 'b751e9a2e8a0', '5 days ago', '552MB'], ['web-ecom-dev', 'latest', 'b5a529e54884', '7 days ago', '850MB'], ['prom/prometheus', 'latest', 'c10e9cbf22cd', '7 days ago', '194MB'], ['web-ecom-test', 'latest', '04d007b17e2b', '8 days ago', '2.18GB'], ['ductn4/pm2', '16-alpine', 'e6d2f5ea8099', '10 days ago', '158MB'], ['npb-test2', 'latest', '41d0ee7411fa', '11 days ago', '173MB'], ['ductn4/pm2', '15-alpine', 'efd577a4ff6b', '12 days ago', '156MB'], ['ductn4/pm2', 'latest', 'efd577a4ff6b', '12 days ago', '156MB'], ['071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083/web-dashboard-latest', 'latest', '1716ae765ee6', '12 days ago', '188MB'], ['npb-test', 'latest', '9452f53960ae', '12 days ago', '170MB'], ['071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083/vinivialive-social-latest', 'latest', '1b7a0cf5fdd9', '2 weeks ago', '446MB'], ['071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083', 'vinivialive-social-latest', '746313c3b4c6', '2 weeks ago', '446MB'], ['071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083', 'vinivialive-shopping-latest', '723c040bdc31', '2 weeks ago', '446MB'], ['ductn4/mewcloud', 'latest', 'ee9db83b0320', '2 weeks ago', '164MB'], ['vinso-test', 'latest', '51c81d264b8d', '3 weeks ago', '446MB'], ['mongo', '5.0.3', 'fefd78e9381a', '4 weeks ago', '699MB'], ['keymetrics/pm2', '15-alpine', '27a106a2a474', '5 months ago', '148MB'], ['gcr.io/k8s-minikube/kicbase', 'v0.0.22', 'bcd131522525', '6 months ago', '1.09GB'], ['node', '15-alpine', '75631da67663', '7 months ago', '112MB'], ['postgres', '11.5-alpine', 'da01ecfbabe1', '2 years ago', '71.8MB']]
 ```
+
+</details>
 
   Trông cũng hòm hòm nhưng mà chưa xong được :V. Sau đó, mình sẽ "merge" 2 mảng
 *headers* và *rows* lại với nhau:
@@ -154,9 +169,14 @@ def namedtuplify(headers, rows):
 
   Kết quả:
 
+<details>
+<summary>Output</summary>
+
 ```bash
 [Row(REPOSITORY='ductn4/pharma-server-dev', TAG='latest', IMAGEID='b3bcb3f3d042', CREATED='2 days ago', SIZE='288MB'), Row(REPOSITORY='ductn4/pharma-server-test', TAG='latest', IMAGEID='b279bfa64352', CREATED='2 days ago', SIZE='288MB'), Row(REPOSITORY='ductn4/pharma-server', TAG='latest', IMAGEID='73a0a0737bec', CREATED='2 days ago', SIZE='288MB'), Row(REPOSITORY='dev/django-prometheus-demo', TAG='latest', IMAGEID='c9cdb14b3543', CREATED='3 days ago', SIZE='75.4MB'), Row(REPOSITORY='ductn4/node', TAG='15-alpine', IMAGEID='263ef415ed2e', CREATED='5 days ago', SIZE='118MB'), Row(REPOSITORY='071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083', TAG='web-ecom-latest', IMAGEID='b751e9a2e8a0', CREATED='5 days ago', SIZE='552MB'), Row(REPOSITORY='web-ecom-dev', TAG='latest', IMAGEID='b5a529e54884', CREATED='7 days ago', SIZE='850MB'), Row(REPOSITORY='prom/prometheus', TAG='latest', IMAGEID='c10e9cbf22cd', CREATED='7 days ago', SIZE='194MB'), Row(REPOSITORY='web-ecom-test', TAG='latest', IMAGEID='04d007b17e2b', CREATED='8 days ago', SIZE='2.18GB'), Row(REPOSITORY='ductn4/pm2', TAG='16-alpine', IMAGEID='e6d2f5ea8099', CREATED='10 days ago', SIZE='158MB'), Row(REPOSITORY='npb-test2', TAG='latest', IMAGEID='41d0ee7411fa', CREATED='11 days ago', SIZE='173MB'), Row(REPOSITORY='ductn4/pm2', TAG='15-alpine', IMAGEID='efd577a4ff6b', CREATED='12 days ago', SIZE='156MB'), Row(REPOSITORY='ductn4/pm2', TAG='latest', IMAGEID='efd577a4ff6b', CREATED='12 days ago', SIZE='156MB'), Row(REPOSITORY='071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083/web-dashboard-latest', TAG='latest', IMAGEID='1716ae765ee6', CREATED='12 days ago', SIZE='188MB'), Row(REPOSITORY='npb-test', TAG='latest', IMAGEID='9452f53960ae', CREATED='12 days ago', SIZE='170MB'), Row(REPOSITORY='071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083/vinivialive-social-latest', TAG='latest', IMAGEID='1b7a0cf5fdd9', CREATED='2 weeks ago', SIZE='446MB'), Row(REPOSITORY='071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083', TAG='vinivialive-social-latest', IMAGEID='746313c3b4c6', CREATED='2 weeks ago', SIZE='446MB'), Row(REPOSITORY='071800817092.dkr.ecr.us-east-2.amazonaws.com/vin21083', TAG='vinivialive-shopping-latest', IMAGEID='723c040bdc31', CREATED='2 weeks ago', SIZE='446MB'), Row(REPOSITORY='ductn4/mewcloud', TAG='latest', IMAGEID='ee9db83b0320', CREATED='2 weeks ago', SIZE='164MB'), Row(REPOSITORY='vinso-test', TAG='latest', IMAGEID='51c81d264b8d', CREATED='3 weeks ago', SIZE='446MB'), Row(REPOSITORY='mongo', TAG='5.0.3', IMAGEID='fefd78e9381a', CREATED='4 weeks ago', SIZE='699MB'), Row(REPOSITORY='keymetrics/pm2', TAG='15-alpine', IMAGEID='27a106a2a474', CREATED='5 months ago', SIZE='148MB'), Row(REPOSITORY='gcr.io/k8s-minikube/kicbase', TAG='v0.0.22', IMAGEID='bcd131522525', CREATED='6 months ago', SIZE='1.09GB'), Row(REPOSITORY='node', TAG='15-alpine', IMAGEID='75631da67663', CREATED='7 months ago', SIZE='112MB'), Row(REPOSITORY='postgres', TAG='11.5-alpine', IMAGEID='da01ecfbabe1', CREATED='2 years ago', SIZE='71.8MB')]
 ```
+
+</details>
 
   Vậy là "xong" cái command `docker images`, tiếp đó mình sẽ viết **function**
 lọc ra các *images* có tag là `<none>`:
